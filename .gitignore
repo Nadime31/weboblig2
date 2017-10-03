@@ -3,3 +3,6 @@
 
 # Ada Library Information
 *.ali
+
+#exclude everything DS_Store
+*.DS_Store
