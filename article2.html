@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>MathML</title>
+		<link rel="stylesheet" type="text/css" href="stilark.css" />
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=MML_CHTML">
+</script>
+	</head>
+	
+	<body>
+		<main>
+			<header>Oppgave 4</header>
+			<h2>Hva er MathML?</h2>
+				<p> <strong>MathML</strong>(Matematical Markup Language) er en strukturert måte å representere matematiske formler. Dette gjør det mulig for oss å editere matematikken direkt på siden.
+				</p>
+
+			<h2>Hvorfor er det nyttig i kombinasjon med HTML?</h2>
+			<p>Er en del av HTML5 (men ikke alle støtter det likevel)</p>
+
+			<h2>Bruken og styrken til MathML </h2>
+				<p>To typer MathML - Content og Presentation:<br/> 
+					C-MathML : Beholder semantikken i det matematiske uttrykket<br/>
+					 P-MathML:  beskriver hvordan det skal vises</p>
+				<p>XML Presentation eksempler:</p>
+
+					
+					<math xmlns="http://www.w3.org/1998/Math/MathML"> 
+						<mfenced>
+						<mfrac> <mrow>
+						<mi>x</mi> <mo>+</mo> <msup>
+						<mi>y</mi>
+						<mn>2</mn> </msup>
+						</mrow>
+						<mn>3</mn> </mfrac>
+						</mfenced>
+						<mspace linebreak="newline"/>
+					</math>
+
+
+					<math xmlns="http://www.w3.org/1998/Math/MathML">
+						<mi>y</mi>
+						<mo>=</mo>
+						<msup>
+							<mi>x</mi>
+							<mn>2</mn>
+						</msup>
+						<mo>&#xA0;</mo>
+						<mo>+</mo>
+						<mo>&#xA0;</mo>
+						<msqrt>
+							<mn>5</mn>
+						</msqrt>
+						<mspace linebreak="newline"/>
+					</math>
+
+					<math xmlns="http://www.w3.org/1998/Math/MathML">
+						<mi>y</mi>
+						<mo>=</mo>
+						<msup>
+							<mi>x</mi>
+							<mn>3</mn>
+						</msup>
+						<mo>&#xA0;</mo>
+						<mo>-</mo>
+						<msup>
+							<mi>y</mi>
+							<mn>5</mn>
+						</msup><mspace linebreak="newline"/><mspace linebreak="newline"/></math>
+
+
+				
+
+				
+
+
+
+				
+		</main>
+	</body>
+</html>
+
+
+

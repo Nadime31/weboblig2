@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>web oblig2</title>
+		<link href="normalize.css" rel="stylesheet" />
+		<style>
+			#master-grid {
+				max-width: 1200px;
+				margin: 0 auto;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-template-rows: 100px auto auto 100px;
+				grid-template-areas: 	"nav nav nav"
+										"article1 article2 aside"
+										"article3 article4 aside"
+										"footer footer footer";
+			}
+		
+				
+
+				
+			
+
+			body {
+				background-image: url(oppgaver/webutvikling/weboblig2/keyboard2.jpg);
+			}
+			
+			
+			div.article1{
+				grid-area: article1;
+				color: white;
+				background : #1a001a;
+				padding: 20px;
+				margin: 20px;
+				
+
+			}
+			div.article2{
+				grid-area: article2;
+				background : #00001a;
+				color: white;
+				padding: 20px;
+				margin: 20px;
+
+			}
+			div.article3{
+				grid-area: article3;
+				background : #00001a;
+				color: white;
+				padding: 20px;
+				margin: 20px;
+
+			}
+			div.article4{
+				grid-area: article4;
+				background : #1a001a;
+				color: white;
+				padding: 20px;
+				margin: 20px;
+;
+			}
+
+			
+
+			/* Aside */
+			.aside {
+				grid-area: aside;
+				background-image: url(oppgaver/webutvikling/weboblig2/keyboard.jpg);
+				background-size: 850px;
+				padding: 5px;
+				margin: 20px;
+				color: white;
+				
+			}
+
+			
+
+			/* Navigasjon*/
+				
+			nav {
+				grid-area: nav;
+				background : #1a001a; ;
+				color: white;
+				padding: 0;
+				margin: 0px;
+				font-size: 20px;
+				
+			}
+			
+			nav ul {
+				list-style-type: none;
+
+			}
+			nav ul li {
+				display: inline-block;
+			}
+			nav ul li a {
+			text-decoration: none;
+			text-align: center;
+			width: 90px;
+			padding:8px;
+			color: white;
+			display: block;
+
+			}
+
+			/* Footer */
+
+			footer {
+				grid-area: footer;
+				background : #00001a;
+				color: white;
+				padding:20px;
+				
+
+
+			}
+
+			/* Tekst*/
+			h2 {
+			font-size: 18px;
+			}
+
+			
+
+		</style>
+	</head>
+	<body>
+		<div id="master-grid">
+			
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Om kurset</a></li>
+					<li><a href="#">Emner</a></li>
+					<li><a href="#">Viktig info</a></li>
+
+				</ul>
+			</nav>
+		
+
+		
+		
+			<div class="article1">
+				<h2> Flexboks / Grid</h2>
+				<p>Articklen handler om både gammeldags måte å skrive css på ,og om flexboks med flesibilitet o ikke minst om den framtids måten: css grid.</p>
+				<p><a href="article1.html">Les mer</a></p>
+			</div>
+			
+			<div class="article2">
+				<h2>MathML</h2>
+				<p> MathML (Mathematical Markup Language) er ment å legge til rette for bruk og vidare bruk av matematiske og vitenskapelige innhold på nettet, og for andre programmer, for eksempel datamaskinen algebra systemer, print sats, og tale-syntese</p>
+				<p><a href="article2.html">Les mer</a></p>
+			</div>
+
+			<div class="article3">
+				<h2>SVG</h2>
+				<p>SVG (Scalable Vector Graphics) er en bildekode/format som brukes til å forklare todimensjonal grafikk og grafiske løsninger i XML. </p>
+				<p><a href="article3.html">Les mer</a></p>
+			</div>
+			<div class="article4">
+				<h2>Git og Github</h2>
+				<p>Git er et verktøy for versjonskontroll og kodedeling.GitHub er en fullverdig Git-tjeneste samt at den har et visuelt grensesnitt som lar deg enkelt behandle og bla i gjennom kode og informasjon som har blitt lastet opp av deg selv og andre.</p>
+				<p><a href="article4.html">Les mer</a></p>
+			</div>
+			
+	
+
+		<aside class="aside">
+			<h2>Viktig info:</h2>
+			<ul>
+				<li>Tid forlesing:<br/>
+					Mandager 14:15-16:00<br/>
+					Onsdager 12:15-14:00<br/>
+					Fredager 09:15-11:00<br/><br/>
+				
+				
+				<li>Øvingstimer: <br/>
+				 	<a href="https://calendar.google.com/calendar/render?cid=j19u3d31kqt29fstcikvit8gs8%40group.calendar.google.com#main_7">Logg på Google Kalendar</a></li><br/>
+
+				<li>Fristene for obliginnleveringer:<br/>
+					Oblig2: 04.10.17<br/>
+					Oblig3:	18.10.17<br/>
+					Oblig4:	01.11.17<br/>
+					Oblig5:	15.11.17<br/>
+					
+
+				</li>
+			</ul>
+		</aside>
+
+			
+
+			<footer>
+				Kikk her for å lese mer om denne siden. <br/>
+				<a href="omdennesiden.html">Om denne siden</a>
+			
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Article 1</title>
+		<link rel="stylesheet" type="text/css" href="stilark.css" />
+	</head>
+	<body>
+		<main>
+			<header>STRUKTUR: FLEXBOX / GRID</header>
+			<h2>Struktur:</h2>
+				<p>Normalize.css: Gi deg selv best mulig utgangspunkt for å bygge struktur</p>
+				<p>Planlegg struktur etter en wireframe/skisse.</p>
+			<h2>"Old school” CSS :</h2>
+				<p>Wrappere brukes for å sørge for rad-inndeling. Boxer brukes for å sørge for flyt inne wrappere.Størrelser er i % for responsivitet / grid</p>
+			<h2> The “Flex”ible way:CSS Flexbox:</h2>
+				<p>Flex-container for å sørge for rad- inndeling.Flex-items for å sørge for flyt inne wrappere.Størrelser i % for responsivitet / grid.</p>
+			<h3>CSS FlexBox container</h3>
+				<p><strong>Display: flex;</strong>
+				forteller containeren hvordan items innenfor skal vises.<br/>
+				<strong>Justify-content: space-between;</strong>forteller containeren at plass mellom elementer skal utjevnes på en rad.<br/>
+				<strong>Flex-wrap: wrap;</strong>forteller containeren at elementer skal wrappes hvis de overstiger en rad.</p>
+			<h3>CSS FlexBox item</h3>
+				<p><strong>Flex: 1;</strong>
+				forteller item at den skal automatisk oppta plassen til ett element. Hvis det er 5 elementer, vil den oppta 1/5 av den tilgjengelige bredden.
+				Item kan få angitt bredde på “vanlig vis” med prosentstørrelser. Flex-containeren vil da bryte items over flere rader (hvis containeren har flex-wrap: wrap;)<br/>
+				<strong>Order: 2;</strong>
+				forteller item hvilken rekkefølge dette itemet skal legge seg i.</p>
+			<h2> The futuristic way:CSS Grid:</h2>
+				<p>
+				Grid-container for å sørge for områder i en grid.
+				Grid-seksjoner plasseres i grid- områdene.</p>
+			<h2>CSS rammeverk</h2>
+					<ul>
+						<li>Ferdiglaget CSS for å strukturere HTML</li>
+						<li>De fleste bruker “old school” CSS</li>
+						<li> Noen har begynt å bruke Flexbox</li>
+						<li>Fordeler: Sparer mange linjer kode.</li>
+						<li>Kommer fort i gang med teknisk design.</li>
+						<li>Ulemper: Mye ekstra kode. Må læres.	</li>
+					</ul>
+			<h2>Foreslått best løsning:</h2>
+			<p>
+				Bruk CSS Grid, og design etter responsive prinsipper.
+				For nettlesere som ikke støtter CSS Grid, gi dem mobilversjonen av siden.
+				Denne vil alltid vises i lesbart format.</p>
+		</main>
+
+	</body>
+</html>
