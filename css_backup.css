@@ -76,18 +76,12 @@ div.article4{
 /* Aside */
 .aside {
 	grid-area: aside;
-	background-color:  #00001a;
+	background-image: url(bilder/keyboard.jpg);
+	background-size: 850px;
 	padding: 5px;
 	margin: 20px 0px 20px 20px;
-				
-}
-.aside ul {
-	background-color: #f3f3f3;
-	color: black;
-}
-.aside h2 {
 	color: white;
-
+				
 }
 
 /* Navigasjon*/
@@ -136,20 +130,6 @@ main {
 	margin: 0 auto;
 	background-color: #f3f3f3;
 	padding: 20px;
-
-}
-
-/* tabell */
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-table a {
-	text-decoration: noen;
 
 }
 
